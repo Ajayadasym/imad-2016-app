@@ -33,8 +33,8 @@ app.get('/ui/Skill.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Skill.png'));
 });
 
-app.get('/ui/Qualification.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Qualification.png'));
+app.get('/ui/qualification.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'qualification.png'));
 });
 
 app.get('/ui/Experiance.png', function (req, res) {
