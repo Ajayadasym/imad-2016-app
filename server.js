@@ -29,7 +29,7 @@ app.get('/ui/Banner.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Banner.jpg'));
 });
 
-app.get('/ui/Skills.png', function (req, res) {
+app.get('/ui/Skill.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Skill.png'));
 });
 
